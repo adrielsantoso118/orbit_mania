@@ -1,7 +1,7 @@
 import pygame
 import math
 
-class World():
+class World:
     def __init__(self, width, height):
         self.width = width
         self.height = height
@@ -18,13 +18,7 @@ class World():
         pygame.display.set_caption("Orbit Mania")
 
 class Planet():
-    def __init__(self, image, center):
-        super().__init__()
-        self.image = image
-        self.rect = self.image.get_rect(center=center)
-
-    def draw_orbit(self, screen, radius, color):
-        pygame.draw.circle(screen, color, self.rect.center, radius, width=1)
+    pass
 
 class Player():
     pass
