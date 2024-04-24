@@ -5,12 +5,10 @@ import time
 
 class AppMain:
     def __init__(self):
-        pygame.init()
-        self.world = orbit_mania.World(800, 600)
-    
-    def run(self):
+        pass
 
-        pygame.quit()
+    def run(self):
+        pass
 
 if __name__ == "__main__":
     app = AppMain()
